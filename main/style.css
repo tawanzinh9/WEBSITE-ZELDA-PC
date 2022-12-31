@@ -152,7 +152,7 @@ cursor: pointer;
 }
 
 .p1:hover {
-    transition: 1s;
+    transition: 0.5s;
     background: white;
     border-radius: 1%;
     cursor: pointer;
