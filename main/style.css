@@ -11,7 +11,7 @@ body {
 
 .everything {
     margin: 0 250px;
-    height: 100vh;
+    height: 100%;
     background: rgb(12, 12, 12);
 }
 
@@ -37,6 +37,7 @@ a:hover {
 main {
     display: flex;
     
+    
 
 }
 
@@ -55,7 +56,7 @@ main {
     margin-left: 20px;
 }
 
-img {
+#img {
     height: 200px;
     width: 250px;
 }
@@ -100,4 +101,30 @@ button:hover {
 transition: 1s;
 scale: 1.1;
 cursor: pointer;
+}
+
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 3rem;
+    font-size: 30px;
+
+}
+
+#img-ep {
+    width: 500px;
+    border: 7px solid rgb(228, 195, 7);
+    border-radius: 2%;
+    filter: grayscale(100);
+}
+
+#img-ep:hover {
+    cursor: pointer;
+    transition: 2.5s;
+    filter: sepia();
+    scale: 1.2;
+    border: 6px solid white;
 }
