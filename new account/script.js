@@ -12,7 +12,7 @@ btn.addEventListener("click", (e) => {
         msg.classList.add("msg-ok")
         msg.textContent = "Sucess, welcome to this world!! 😊"
         setTimeout(() => {
-            location.href = "./main/index.html"
+            location.href = "../main/index.html"
         }, 3000)
        
     }
