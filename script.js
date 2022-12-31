@@ -22,7 +22,7 @@ login.addEventListener("click", (e) => {
         msg.textContent = "Success, please, await..."
 
         setTimeout ( () => {
-            location.href = "../main/index.html"
+            location.href = "./main/index.html"
         }, 3500)
     }
 
