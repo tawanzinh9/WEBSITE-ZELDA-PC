@@ -62,3 +62,16 @@ form {
     color: rgb(0, 240, 0);
     font-size: 18px;
 }
+
+
+body {
+    animation: bodyA 0.5s
+}
+
+@keyframes bodyA {
+    from {
+        transform: rotateX(90deg);
+    } to {
+        transform: rotateX(0deg);
+    }
+}

@@ -215,3 +215,15 @@ footer {
     color: black;
     background: greenyellow;
 }
+
+body {
+    animation: bodyA 0.5s
+}
+
+@keyframes bodyA {
+    from {
+        transform: rotateX(90deg);
+    } to {
+        transform: rotateX(0deg);
+    }
+}
