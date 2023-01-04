@@ -4,6 +4,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+
+
 body {
    background: black;
    
@@ -189,4 +196,22 @@ footer {
     align-items: center;
     justify-content: center;
     
+}
+
+#for {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+#download {
+    background: rgb(129, 209, 8);
+    margin: 100px;
+    font-size: 30px;
+}
+
+#download:hover {
+    color: black;
+    background: greenyellow;
 }
